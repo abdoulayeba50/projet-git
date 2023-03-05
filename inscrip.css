@@ -1,0 +1,116 @@
+   
+
+body{
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+fieldset{
+    border: none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+fieldset::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-box{
+    background-color: #fff;
+    width: 500px;
+    border-radius: 10px;
+}
+
+td{
+    padding: 5px 20px;
+}
+
+td input{
+    padding: 2px;
+    width: 100%;
+    font-size: 1em;
+    outline: none;
+    border-top: 2px solid rgba(000, 000, 000, 000);
+    border-left: 2px solid rgba(000, 000, 000, 000);
+    border-right: 2px solid rgba(000, 000, 000, 000);
+    border-radius: 2px;
+}
+
+td select{
+    padding: 2px;
+    width: 100%;
+    font-size: 1em;
+    outline: none;
+    border-top: 2px solid rgba(000, 000, 000, 000);
+    border-left: 2px solid rgba(000, 000, 000, 000);
+    border-right: 2px solid rgba(000, 000, 000, 000);
+    border-radius: 2px;
+}
+
+td select:hover{
+    outline: none;
+    border-bottom: 2px solid blue;
+}
+
+td input:hover{
+    outline: none;
+    border-bottom: 2px solid blue;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5em;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    margin-top: 10px;
+    color: #2691d9;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p a{
+    text-decoration: none;
+}
+
+input[type='submit']{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    height: 45px;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 176px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-style: italic;
+    font-size: 19px;
+    background: #2691d9;
+    border: none;
+    cursor: pointer;
+}
